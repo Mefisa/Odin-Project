@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#container {
+    border: 1px solid black;
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button {
+    height: 50px;
+    width: 75px;
+    font-size: 20px;
+}
+
+#topContainer{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mode {
+    font-size: 20px;
+}
